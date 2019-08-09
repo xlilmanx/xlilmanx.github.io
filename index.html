@@ -20,18 +20,27 @@
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
 	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css" rel="stylesheet">
 
-	<link href="dotasdheropicker.css" rel="stylesheet">
+	<link href="dotasdheropicker-HTML5-Shipping.css" rel="stylesheet">
+	<style>
+		body {
+		  background-color: #212121FF;
+		}
+		.center {
+		  margin: auto;
+		  width: 1080px;
+	</style>
 </head>
 <body>
 
-<div class="wrapper" id="mainarea">
+<div class="wrapper center" id="mainarea">
 	<div class="alert alert-warning centered-axis-xy" style="min-height: 20px; display:none;" role="alert" id="compilingmessage">
 		<div id='loadTasks'> </div>
 	</div>
 	<!-- The "tabindex=0" specifier on the canvas is important to allow it to capture keyboard focus when clicking on it with a mouse -->
 	<canvas tabindex=0 id="canvas" class="emscripten" oncontextmenu="event.preventDefault()" style="display:none;">
 </div>
-<div class="row buttonarea text-center" id="buttonrow">
+<div class="text-center"><button type="button" class="btn btn-primary" id="fullscreen_request">FullScreen</button></div>
+<div class="row buttonarea text-center" id="buttonrow" hidden>
 	<div class="col-sm-2 text-center"></div>
 	<div class="col-sm-2 text-center"><button type="button" class="btn btn-primary" onclick="try { Module['pauseMainLoop'](); } catch(e) {console.error(e);}">Pause</button></div>
 	<div class="col-sm-2 text-center"><button type="button" class="btn btn-primary" onclick="try { Module['resumeMainLoop'](); } catch(e) {console.error(e);}">Resume</button></div>
@@ -43,6 +52,6 @@
 </div>
 <div class="texthalf text-normal jumbotron " id="logwindow" style='display:none'></div>
 
-<script src="dotasdheropicker.UE4.js"></script>
+<script src="dotasdheropicker-HTML5-Shipping.UE4.js"></script>
 </body>
 </html>
