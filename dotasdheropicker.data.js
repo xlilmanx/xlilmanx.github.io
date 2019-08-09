@@ -173,6 +173,6 @@ Module['FS_createPath']('/dotasdheropicker/Content', 'Paks', true, true);
   }
 
  }
- loadPackage({"files": [{"start": 0, "audio": 0, "end": 53, "filename": "/Manifest_NonUFSFiles_HTML5.txt"}, {"start": 53, "audio": 0, "end": 105, "filename": "/UE4CommandLine.txt"}, {"start": 105, "audio": 0, "end": 10198177, "filename": "/dotasdheropicker/Content/Paks/dotasdheropicker-HTML5.pak"}], "remote_package_size": 10198177, "package_uuid": "406afa7c-19ec-4802-8366-dd6f50ba5d0f"});
+ loadPackage({"files": [{"start": 0, "audio": 0, "end": 53, "filename": "/Manifest_NonUFSFiles_HTML5.txt"}, {"start": 53, "audio": 0, "end": 105, "filename": "/UE4CommandLine.txt"}, {"start": 105, "audio": 0, "end": 10198492, "filename": "/dotasdheropicker/Content/Paks/dotasdheropicker-HTML5.pak"}], "remote_package_size": 10198492, "package_uuid": "ed729d8c-8f99-4367-a8b7-0097c7b1e364"});
 
 })();
